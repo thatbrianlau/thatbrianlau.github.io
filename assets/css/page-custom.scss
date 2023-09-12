@@ -1,0 +1,64 @@
+---
+---
+
+.page-custom {
+  padding-top: 100px;
+  box-sizing: border-box;
+
+  .error-404 {
+    max-width: 780px;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+    h1 {
+      padding: 0 0 32px 0;
+    }
+  }
+
+  .partners {
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 32px;
+
+    .partners__info {
+      width: 33.3%;
+      flex-shrink: 0;
+      text-align: center;
+      padding: 0 16px;
+      margin-bottom: 40px;
+      box-sizing: border-box;
+
+      img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+      }
+
+      h2 {
+        margin-top: 12px;
+        margin-bottom: 12px;
+      }
+
+      p {
+        max-width: 380px;
+        margin: 0 auto;
+      }
+    }
+
+    @media only screen and (max-width: 1024px) {
+      .partners__info {
+        width: 50%;
+      }
+    }
+
+    @media only screen and (max-width: 576px) {
+      .partners__info {
+        width: 100%;
+        img {
+          width: 160px;
+          height: 160px;
+        }
+      }
+    }
+  }
+}

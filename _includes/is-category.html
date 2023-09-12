@@ -1,0 +1,6 @@
+{%- assign isCategory = false -%}
+{%- for category in post.categories -%}
+  {%- if category == include.name -%}
+    {%- assign isCategory = true -%}
+  {%- endif -%}
+{%- endfor -%}

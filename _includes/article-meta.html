@@ -1,0 +1,21 @@
+{%- for author in site.author -%}
+  {%- if author.name == post.author -%}
+  <div class="article__meta">
+    <img class="lazy" data-src="{{author.head}}" alt="" />
+    <div>
+      <span class="author">{{post.author}}</span>
+      <time class="date">{{post.date | date: "%d %b %Y"}}</time>
+    </div>
+  </div>
+  {% elsif author.name == page.author %}
+  <div class="article__meta">
+    <img class="lazy" data-src="{{author.head}}" alt="" />
+    <div>
+      <span class="author">{{page.author}}</span>
+      <time class="date">{{page.date | date: "%d %b %Y"}}</time>
+    </div>
+  </div>
+  {%- endif -%}
+{%- endfor -%}
+
+

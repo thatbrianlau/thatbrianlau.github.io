@@ -1,0 +1,92 @@
+---
+---
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0 1 auto;
+  flex-direction: row;
+  box-sizing: border-box;
+  margin-left: -16px;
+  margin-right: -16px;
+}
+
+.col {
+  padding-left: 16px;
+  padding-right: 16px;
+  box-sizing: border-box;
+}
+
+[class^='col-'] {
+  flex: auto;
+}
+
+@for $i from 0 through 12 {
+  .col-#{$i} {
+    width: calc(#{$i} / 12 * 100%);
+  }
+}
+
+@media (max-width: 1400px) {
+  @for $i from 0 through 12 {
+    .col-w-#{$i} {
+      width: calc(#{$i} / 12 * 100%);
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  @for $i from 0 through 12 {
+    .col-d-#{$i} {
+      width: calc(#{$i} / 12 * 100%);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  @for $i from 0 through 12 {
+    .col-t-#{$i} {
+      width: calc(#{$i} / 12 * 100%);
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  @for $i from 0 through 12 {
+    .col-m-#{$i} {
+      width: calc(#{$i} / 12 * 100%);
+    }
+  }
+}
+
+.container {
+  max-width: 1300px;
+  box-sizing: border-box;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1400px) {
+  .container {
+    max-width: 1000px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: 740px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 560px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 480px;
+  }
+}

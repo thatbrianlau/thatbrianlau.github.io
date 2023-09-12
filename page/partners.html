@@ -1,0 +1,19 @@
+---
+layout: custom
+title: PARTNERS
+---
+
+<div class="container">
+  <div class="hero">
+    <h1 class="hero__title">Partners</h1>
+  </div>
+
+  <div class="partners">
+    {%- for author in site.author -%}
+    <div class="partners__info">
+      <img class="lazy" alt="" data-src="{{site.baseurl}}{{author.head}}" />
+      <h2 class="partners__name">{{author.name}}</h2>
+      <p class="partners__description">{{author.introduction}}</p>
+    </div>
+    {%- endfor -%}
+</div>

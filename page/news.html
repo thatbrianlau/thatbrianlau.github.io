@@ -1,0 +1,19 @@
+---
+layout: custom
+title: NEWS
+---
+
+<div class="container">
+  <div class="hero">
+    <h1 class="hero__title">News</h1>
+    <p class="hero__description">
+      Don’t limit yourself. Many people limit themselves to what they think they can do. You can go as far as your mind lets you. What you believe, remember, you can achieve.
+    </p>
+  </div>
+
+  <ul class="article-list article-list-first">
+    {%- include article-range.html limit=9999 name="news" class="none" -%}
+  </ul>
+
+  <div id="pagination" data-pageSize="7"></div>
+</div>

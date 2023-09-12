@@ -1,0 +1,19 @@
+---
+layout: custom
+title: PODCASTS
+---
+
+<div class="container">
+  <div class="hero">
+    <h1 class="hero__title">Podcasts</h1>
+    <p class="hero__description">
+      Commercials, Music Videos, Television, Film (Short and Feature length), TV News, Corporate video, and everything in between.
+    </p>
+  </div>
+
+  <ul class="article-list">
+    {%- include article-range.html limit=9999 name="podcasts" -%}
+  </ul>
+
+  <div id="pagination" data-pageSize="6"></div>
+</div>

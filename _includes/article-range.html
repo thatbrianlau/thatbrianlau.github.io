@@ -1,0 +1,26 @@
+{% assign counter = 0 %}
+
+{%- for post in site.posts -%}
+  {%- assign isCategory = false -%}
+
+  {%- if include.name -%}
+    {%- for category in post.categories -%}
+      {%- if category == include.name -%}
+        {%- assign isCategory = true -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- else -%}
+    {%- assign isCategory = true -%}
+  {%- endif -%}
+
+  {%- if isCategory -%}
+    {% assign counter = counter | plus: 1 %}
+    {%- include article-item.html class=include.class -%}
+  {% endif -%}
+
+  {%- if counter >= include.limit -%}
+    {% break %}
+  {% endif -%}
+
+{%- endfor -%}
+

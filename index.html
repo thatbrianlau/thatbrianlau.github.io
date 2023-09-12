@@ -1,0 +1,45 @@
+---
+layout: home
+title: 首页
+---
+
+<section class="banner-wrap">
+  <img class="banner" src="{{site.baseurl}}/assets/img/banner.jpg" alt="banner" />
+</section>
+
+<div class="container">
+  <div class="hero">
+    <h1 class="hero__title">{{site.title}}</h1>
+    <p class="hero__description">{{site.description}}</p>
+  </div>
+</div>
+
+<div class="container">
+  <ul class="article-list article-list-first">
+    {%- include article-range.html limit=4 -%}
+  </ul>
+</div>
+
+<!-- News -->
+<div class="container">
+  {% include section-head.html name="news" more="See all News"-%}
+  <ul class="article-list article-list-first">
+    {%- include article-range.html limit=4 name="news" -%}
+  </ul>
+</div>
+
+<!-- Podcasts -->
+<div class="container">
+  {% include section-head.html name="podcasts" more="More Podcasts"-%}
+  <ul class="article-list">
+    {%- include article-range.html limit=3 name="podcasts" -%}
+  </ul>
+</div>
+
+<!-- Events -->
+<div class="container">
+  {% include section-head.html name="events" more="See More"-%}
+  <ul class="article-list article-list-first">
+    {%- include article-range.html name="events" limit=4 -%}
+  </ul>
+</div>

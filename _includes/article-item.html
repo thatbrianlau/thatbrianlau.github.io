@@ -1,0 +1,37 @@
+<li class="article {{include.class}}">
+  <div class="article__inner">
+    <div class="article__head">
+      {%- if post.video %}
+      <div class="video-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+          <polygon points="40,30 65,50 40,70"></polygon>
+        </svg>
+      </div>
+      {%- endif -%}
+      <a href="{{site.baseurl}}{{post.url }}">
+        {%- if post.cover %}
+          {%- assign checkArray = post.cover | split:http -%}
+          {%- if checkArray[0] == blank -%}
+            <img class="lazy" data-src="{{post.cover}}" alt="" />
+          {%- else -%}
+            <img class="lazy" data-src="{{site.baseurl}}{{post.cover}}" alt="" />
+          {%- endif -%}
+        {%- else -%}
+          <img class="lazy" data-src="{{site.baseurl}}/assets/cover/default.jpg" alt="" />
+        {%- endif -%}
+      </a>
+    </div>
+    <div class="article__content">
+      <div class="article__tags">
+        {% for category in post.categories -%}
+        <a class="article__tag">{{ category }}</a>
+        {%- endfor %}
+      </div>
+      <h2 class="article__title">
+        <a href="{{site.baseurl}}{{post.url }}">{{ post.title }}</a>
+      </h2>
+      <p class="article__excerpt">{{ post.content | strip_html | strip | truncate: 220 }}</p>
+      {%- include article-meta.html -%}
+    </div>
+  </div>
+</li>

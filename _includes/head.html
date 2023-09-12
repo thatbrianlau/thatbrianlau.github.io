@@ -1,0 +1,44 @@
+{%- assign buildAt = site.time | date: "%Y%m%d%H%M" -%}
+<head>
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <meta charset="utf-8" />
+  <meta http-equiv="content-language" content="zh-CN" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="supported-color-schemes" content="light dark" />
+  <meta name="renderer" content="webkit" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="applicable-device" content="pc,mobile" />
+  {%- if page.author %}
+  <meta name="author" content="{{ page.author }}" />
+  {%- endif -%}
+  {%- if page.categories %}
+  <meta name="description" content="{{ page.title }}" />
+  <meta name="keywords" content="{% for category in page.categories %},{{ category }}{% endfor %}" />
+  {% else %}
+  <meta name="description" content="{{ site.description }}" />
+  <meta name="keywords" content="{{ site.keywords }}" />
+  {% endif -%}
+  <link rel="icon" href="{{site.baseurl}}/favicon.ico" />
+  <link rel="stylesheet" href="https://registry.npmmirror.com/ionicons/4.2.2/files/dist/css/ionicons.min.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/responsive.css" />
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/basic.css" />
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/common.css" />
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/article-list.css" />
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/page-home.css" />
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/page-post.css" />
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/page-custom.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@400;600;700&family=Noto+Serif:wght@700&display=swap">
+  <script>
+    window.site = { baseurl: '{{site.baseurl}}', buildAt: '{{buildAt}}'}
+    if (localStorage.theme === 'dark') document.documentElement.className = 'dark-mode'
+  </script>
+  <script defer src="https://registry.npmmirror.com/jquery/3.7.0/files/dist/jquery.min.js"></script>
+  <script defer src="https://registry.npmmirror.com/paginationjs/2.5.1/files/dist/pagination.min.js"></script>
+  <script defer src="https://registry.npmmirror.com/vanilla-lazyload/17.8.4/files/dist/lazyload.min.js"></script>
+  <script defer src="https://registry.npmmirror.com/lightense-images/1.0.17/files/dist/lightense.min.js"></script>
+  <script defer src="https://registry.npmmirror.com/reframe.js/4.0.1/files/dist/reframe.min.js"></script>
+  <script defer src="https://registry.npmmirror.com/js-cookie/3.0.5/files/dist/js.cookie.min.js"></script> 
+  <script defer src="{{site.baseurl}}/assets/js/common.js"></script>
+  <script defer src="https://translate.google.com/translate_a/element.js?cb=initLang"></script>
+</head>
