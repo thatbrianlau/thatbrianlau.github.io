@@ -35,7 +35,8 @@ As an industry expert in brand strategy and overseas cooperation, Brian possesse
 
 <div class="gallery-box">
   <img src="https://placekitten.com/1200/1200">
-  <em>Lara Chang</em>
+ ##  <center> Lara Chang <center>
   <img src="https://placekitten.com/1200/1200">
-  <em>Vanessa Holmes</em>
+ ## <center>Vanessa Holmes <center>
+
 </div>
