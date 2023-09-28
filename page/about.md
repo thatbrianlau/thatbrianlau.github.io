@@ -5,9 +5,8 @@ title: Our Vision
 
 ![demo](https://placekitten.com/1000/750)
 
-The leader in news and information on cryptocurrency, digital assets and the future of money,Quedic is a media outlet that strives for the highest journalistic standards and abides by a strict set of editorial policies.
 
-> Sing like no one’s listening, love like you’ve never been hurt, dance like nobody’s watching, and live like it’s heaven on earth.
+> The leader in news and information on cryptocurrency, digital assets and the future of money,Quedic is a media outlet that strives for the highest journalistic standards and abides by a strict set of editorial policies.
 
 We've been an influential Financial & Cryptocurrency Public Relations and Marketing consultant Agency. We will devote ourselves to disseminating remarkable and highly concentrated interactive content by gathering senior policymakers' information who have played an important role in the markets globally .Through a combination of brand strategic plan and marketing, we have the knowledge and experience to get brands noticed.We’ve worked extensively and successfully with both new and established businesses.
 
@@ -18,7 +17,7 @@ We've been an influential Financial & Cryptocurrency Public Relations and Market
   <em>Gallery Desc</em>
 </div>
 
-Quedic:金融洞察之光，引領加密貨幣的未來
+> Quedic:金融洞察之光，引領加密貨幣的未來
 
 作為加密貨幣、數字資產以及貨幣未來信息的新聞領導者，Quedic力求最高的新聞標准，嚴格遵循一套編輯政策。
 
