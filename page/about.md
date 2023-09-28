@@ -11,11 +11,6 @@ title: Our Vision
 We've been an influential Financial & Cryptocurrency Public Relations and Marketing consultant Agency. We will devote ourselves to disseminating remarkable and highly concentrated interactive content by gathering senior policymakers' information who have played an important role in the markets globally .Through a combination of brand strategic plan and marketing, we have the knowledge and experience to get brands noticed.We’ve worked extensively and successfully with both new and established businesses.
 
 
-<div class="gallery-box">
-  <img src="https://placekitten.com/1200/1200">
-  <img src="https://placekitten.com/1200/1200">
-  <em>Gallery Desc</em>
-</div>
 
 > Quedic:金融洞察之光，引領加密貨幣的未來
 
@@ -36,3 +31,11 @@ We've been an influential Financial & Cryptocurrency Public Relations and Market
 With over five years of experience in public relations, social media, and corporate operations, Brian has honed his skills and emerged as a leader in her field. He has successfully navigated the complexities of these areas, demonstrating a keen ability to manage and execute strategies that drive growth and enhance brand visibility.
 
 As an industry expert in brand strategy and overseas cooperation, Brian possesses a wealth of international corporate resources. His extensive network and deep understanding of global markets have enabled his to forge strategic partnerships and foster collaborative relationships. His expertise and insights are instrumental in navigating the ever-changing business landscape and driving the company's international expansion
+
+
+<div class="gallery-box">
+  <img src="https://placekitten.com/1200/1200">
+  <em>Lara Chang</em>
+  <img src="https://placekitten.com/1200/1200">
+  <em>Vanessa Holmes</em>
+</div>
