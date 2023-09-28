@@ -6,7 +6,7 @@ title: Our Vision
 ![demo](https://placekitten.com/1000/750)
 
 
-> 
+> Quedic: The Beacon of Financial Insight, Guiding the Future of Cryptocurrency
 
 The leader in news and information on cryptocurrency, digital assets and the future of money,Quedic is a media outlet that strives for the highest journalistic standards and abides by a strict set of editorial policies.
 
@@ -18,7 +18,9 @@ We've been an influential Financial & Cryptocurrency Public Relations and Market
 
 作為加密貨幣、數字資產以及貨幣未來信息的新聞領導者，Quedic力求最高的新聞標准，嚴格遵循一套編輯政策。
 
-我們一直是具有影響力的金融和加密貨幣公關及營銷咨詢機構。我們將致力於收集在全球市場中扮演重要角色的高級決策者的信息，以傳播卓越而高度集中的互動內容。通過品牌戰略規劃和營銷的結合，我們擁有讓品牌受到關註的知識和經驗。我們已經成功地與新老企業進行了廣泛的合作
+我們一直是具有影響力的金融和加密貨幣公關及營銷咨詢機構。我們將致力於收集在全球市場中扮演重要角色的高級決策者的信息，以傳播卓越而高度集中的互動內容。通過品牌戰略規劃和營銷的結合，我們擁有讓品牌受到關註的知識和經驗。我們已經成功地與新老企業進行了廣泛的合作  
+
+
 <br>
 
 
