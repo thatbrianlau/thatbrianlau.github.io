@@ -3,8 +3,6 @@ layout: post
 title: Our Vision
 ---
 
-<iframe src="https://www.youtube.com/embed/WMOcux6Gp24" loading="lazy" width="640" height="360" frameborder="0" allowfullscreen=""></iframe>
-
 <iframe width="1280" height="720" src="https://www.youtube.com/embed/WMOcux6Gp24" title="Fintech: Web3 &amp; Beyond with Arjun Sethi, Vanessa Grellet, Scott Sobel &amp; Meltem Demirors | #𝗦𝗔𝗟𝗧𝗡𝗬" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
