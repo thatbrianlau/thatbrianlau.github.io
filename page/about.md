@@ -34,14 +34,23 @@ As an industry expert in brand strategy and overseas cooperation, Brian possesse
 
 
 <div class="gallery-box">
-  <img src="https://placekitten.com/1200/1200">
-
- ## Lara Chang 
- 
-  <img src="https://placekitten.com/1200/1200">
-
- ## Vanessa Holmes 
+  <img src="https://qiniu.keyujin.cn/WechatIMG784.jpeg">
+</div>
+##  <center> Lara Chang <center>
+## <center>CMO <center>
 
 Lara is a seasoned professional who boasts a proven track record in business development, digital marketing, and public relations. Her expertise spans across various facets of the industry, enabling her to drive growth and foster relationships.
 
 With extensive experience in engaging with the crypto communities in both Asia and Europe, Lara has a deep understanding of the unique dynamics and nuances of these markets. Her multicultural exposure and strategic insight make her an invaluable asset in the ever-evolving landscape of cryptocurrency.
+
+<div class="gallery-box">
+  <img src="https://qiniu.keyujin.cn/WechatIMG784.jpeg">
+</div>
+##  <center> Vanessa Holmes <center>
+## <center> VP PR & Communications <center>
+
+Vanessa is an experienced Director of Operations, boasting a rich history of working in the field of Cryptocurrency Public Relations. Through a blend of strategic brand planning and innovative marketing techniques, she has demonstrated an exceptional ability to elevate brands and capture attention in the competitive crypto landscape.
+
+In her role, Vanessa is responsible for the strategic planning, business development, and public relations work for the Quedic project. Her responsibilities extend to the establishment and implementation of the Quedic ecosystem, a testament to her comprehensive understanding of the project's vision and her commitment to its success.
+
+Vanessa's expertise and dedication have been instrumental in driving the growth and development of Quedic. Her strategic insights and operational acumen, combined with her deep understanding of the crypto industry, make her an invaluable asset to the team and the broader Quedic ecosystem.
