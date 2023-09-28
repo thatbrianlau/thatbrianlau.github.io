@@ -34,7 +34,7 @@ As an industry expert in brand strategy and overseas cooperation, Brian possesse
 
 
 <div class="gallery-box">
-  <img src="https://qiniu.keyujin.cn/WechatIMG784.jpeg">
+  <img src="https://qiniu.keyujin.cn/larachang.png">
 </div>
 ##  <center> Lara Chang <center>
 ## <center>CMO <center>
@@ -44,7 +44,7 @@ Lara is a seasoned professional who boasts a proven track record in business dev
 With extensive experience in engaging with the crypto communities in both Asia and Europe, Lara has a deep understanding of the unique dynamics and nuances of these markets. Her multicultural exposure and strategic insight make her an invaluable asset in the ever-evolving landscape of cryptocurrency.
 
 <div class="gallery-box">
-  <img src="https://qiniu.keyujin.cn/WechatIMG784.jpeg">
+  <img src="https://qiniu.keyujin.cn/Vanessa%20Holmes.jpg">
 </div>
 ##  <center> Vanessa Holmes <center>
 ## <center> VP PR & Communications <center>
