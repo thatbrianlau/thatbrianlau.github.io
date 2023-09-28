@@ -3,7 +3,9 @@ layout: post
 title: Our Vision
 ---
 
-![demo](https://placekitten.com/1000/750)
+<iframe src="https://player.vimeo.com/video/148003889?h=d36b8b4cbb" loading="lazy" width="640" height="360" frameborder="0" allowfullscreen=""></iframe>
+
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/WMOcux6Gp24" title="Fintech: Web3 &amp; Beyond with Arjun Sethi, Vanessa Grellet, Scott Sobel &amp; Meltem Demirors | #𝗦𝗔𝗟𝗧𝗡𝗬" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 > Quedic: The Beacon of Financial Insight, Guiding the Future of Cryptocurrency
