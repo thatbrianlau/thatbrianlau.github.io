@@ -26,6 +26,9 @@ We've been an influential Financial & Cryptocurrency Public Relations and Market
 
 ## Meet our Team
 
+<div class="gallery-box">
+  <img src="https://qiniu.keyujin.cn/WechatIMG784.jpeg">
+</div>
 # Brian Lau
 # CEO
 
