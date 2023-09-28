@@ -25,3 +25,10 @@ We've been an influential Financial & Cryptocurrency Public Relations and Market
 
 
 ## Heading level 2	: Meet our Team
+
+# Brian Lau
+# CEO
+
+With over five years of experience in public relations, social media, and corporate operations, Brian has honed his skills and emerged as a leader in her field. He has successfully navigated the complexities of these areas, demonstrating a keen ability to manage and execute strategies that drive growth and enhance brand visibility.
+
+As an industry expert in brand strategy and overseas cooperation, Brian possesses a wealth of international corporate resources. His extensive network and deep understanding of global markets have enabled his to forge strategic partnerships and foster collaborative relationships. His expertise and insights are instrumental in navigating the ever-changing business landscape and driving the company's international expansion
