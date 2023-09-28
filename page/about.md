@@ -1,15 +1,15 @@
 ---
 layout: post
-title: About
+title: Our Vision
 ---
 
 ![demo](https://placekitten.com/1000/750)
 
-In operant conditioning, a reinforcement (by reward) or instead a punishment is given after a given behavior, changing the frequency and/or form of that behavior. Stimulus present when the behavior/consequence occurs come to control these behavior modifications.
+The leader in news and information on cryptocurrency, digital assets and the future of money,Quedic is a media outlet that strives for the highest journalistic standards and abides by a strict set of editorial policies.
 
 > Sing like no one’s listening, love like you’ve never been hurt, dance like nobody’s watching, and live like it’s heaven on earth.
 
-Observational learning is learning that occurs through observing the behavior of others. It is a form of social learning which takes various forms, based on various processes. In humans, this form of learning seems to not need reinforcement to occur, but instead, requires a social model such as a parent, sibling, friend, or teacher with surroundings.
+We've been an influential Financial & Cryptocurrency Public Relations and Marketing consultant Agency. We will devote ourselves to disseminating remarkable and highly concentrated interactive content by gathering senior policymakers' information who have played an important role in the markets globally .Through a combination of brand strategic plan and marketing, we have the knowledge and experience to get brands noticed.We’ve worked extensively and successfully with both new and established businesses.
 
 
 <div class="gallery-box">
@@ -18,6 +18,8 @@ Observational learning is learning that occurs through observing the behavior of
   <em>Gallery Desc</em>
 </div>
 
-Nonformal learning is organized learning outside the formal learning system. For example, learning by coming together with people with similar interests and exchanging viewpoints, in clubs or in (international) youth organizations, workshops.
+Quedic:金融洞察之光，引領加密貨幣的未來
 
-Informal learning is less structured than “nonformal” one. It may occur through the experience of day-to-day situations (for example, one would learn to look ahead while walking because of the danger inherent in not paying attention to where one is going). It is learning from life, during a meal at the table with parents, play, exploring, etc.
+作為加密貨幣、數字資產以及貨幣未來信息的新聞領導者，Quedic力求最高的新聞標准，嚴格遵循一套編輯政策。
+
+我們一直是具有影響力的金融和加密貨幣公關及營銷咨詢機構。我們將致力於收集在全球市場中扮演重要角色的高級決策者的信息，以傳播卓越而高度集中的互動內容。通過品牌戰略規劃和營銷的結合，我們擁有讓品牌受到關註的知識和經驗。我們已經成功地與新老企業進行了廣泛的合作
