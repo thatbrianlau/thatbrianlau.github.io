@@ -24,7 +24,7 @@ We've been an influential Financial & Cryptocurrency Public Relations and Market
 我們一直是具有影響力的金融和加密貨幣公關及營銷咨詢機構。我們將致力於收集在全球市場中扮演重要角色的高級決策者的信息，以傳播卓越而高度集中的互動內容。通過品牌戰略規劃和營銷的結合，我們擁有讓品牌受到關註的知識和經驗。我們已經成功地與新老企業進行了廣泛的合作
 
 
-## Heading level 2	: Meet our Team
+## Meet our Team
 
 # Brian Lau
 # CEO
