@@ -30,8 +30,8 @@ We've been an influential Financial & Cryptocurrency Public Relations and Market
 <div class="gallery-box">
   <img src="https://qiniu.keyujin.cn/WechatIMG784.jpeg">
 </div>
-# Brian Lau
-# CEO
+<center> # Brian Lau <center>
+<center># CEO <center>
 
 With over five years of experience in public relations, social media, and corporate operations, Brian has honed his skills and emerged as a leader in her field. He has successfully navigated the complexities of these areas, demonstrating a keen ability to manage and execute strategies that drive growth and enhance brand visibility.
 
