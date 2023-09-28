@@ -36,11 +36,11 @@ As an industry expert in brand strategy and overseas cooperation, Brian possesse
 <div class="gallery-box">
   <img src="https://placekitten.com/1200/1200">
 
- ##  <center> Lara Chang <center>
+ ## Lara Chang 
  
   <img src="https://placekitten.com/1200/1200">
 
- ## <center>Vanessa Holmes <center>
+ ## Vanessa Holmes 
 
 Lara is a seasoned professional who boasts a proven track record in business development, digital marketing, and public relations. Her expertise spans across various facets of the industry, enabling her to drive growth and foster relationships.
 
