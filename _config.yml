@@ -47,13 +47,14 @@ language:
 author:
   - name: Meltem Demiror
     head: /assets/img/partners-01.jpg
-    introduction: Meltem Demirors is Chief Strategy Officer of CoinShares, a digital asset investment firm that manages $4B in assets on behalf of a global client base, and serves as a trusted partner to investors and entrepreneurs navigating the digital asset ecosystem.
-
-An established veteran of digital asset investing, Meltem draws on her substantial experience and widespread influence to accelerate growth and acceptance of the asset class. Prior to joining CoinShares, Meltem helped build and grow Digital Currency Group, raising capital from the world’s largest corporations and managing a portfolio of 120 companies and 4 subsidiaries. Before she was bitten by the bitcoin bug, Meltem worked in the Oil & Gas industry in trading, corporate treasury, and M&A roles.
-
-Meltem has been recognized for her personal contributions to the industry and serves as an outspoken advocate. She is a founding member and co-chair of the World Economic Forum Cryptocurrency Council and testified before the House Financial Services Committee on the importance of bitcoin.
-
-Meltem teaches at her alma mater MIT as well as Oxford, and is passionate about privacy and civil rights.
+    introduction: >
+      Meltem Demirors is Chief Strategy Officer of CoinShares, a digital asset investment firm that manages $4B in assets on behalf of a global client base, and serves as a trusted partner to investors and entrepreneurs navigating the digital asset ecosystem.
+      
+      An established veteran of digital asset investing, Meltem draws on her substantial experience and widespread influence to accelerate growth and acceptance of the asset class. Prior to joining CoinShares, Meltem helped build and grow Digital Currency Group, raising capital from the world’s largest corporations and managing a portfolio of 120 companies and 4 subsidiaries. Before she was bitten by the bitcoin bug, Meltem worked in the Oil & Gas industry in trading, corporate treasury, and M&A roles.
+      
+      Meltem has been recognized for her personal contributions to the industry and serves as an outspoken advocate. She is a founding member and co-chair of the World Economic Forum Cryptocurrency Council and testified before the House Financial Services Committee on the importance of bitcoin.
+      
+      Meltem teaches at her alma mater MIT as well as Oxford, and is passionate about privacy and civil rights.
 
   - name:  Dovey Wan
     head: /assets/img/partners-02.jpg
