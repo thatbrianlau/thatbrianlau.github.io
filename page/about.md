@@ -6,7 +6,7 @@ title: Our Vision
 <iframe width="1280" height="720" src="https://www.youtube.com/embed/WMOcux6Gp24" title="Fintech: Web3 &amp; Beyond with Arjun Sethi, Vanessa Grellet, Scott Sobel &amp; Meltem Demirors | #𝗦𝗔𝗟𝗧𝗡𝗬" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
-> Quedic: The Beacon of Financial Insight, Guiding the Future of Cryptocurrency
+> Quedic: Shaping the Future of Money through Influential Financial and Cryptocurrency Insights
 
 The leader in news and information on cryptocurrency, digital assets and the future of money,Quedic is a media outlet that strives for the highest journalistic standards and abides by a strict set of editorial policies.
 
