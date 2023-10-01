@@ -45,7 +45,14 @@ language:
     text: English
 
 
-> Quedic is dedicated to painting a harmonious picture with our ecological partners, generously offering them complimentary reporting services
+<div class="container">
+  <div class="hero">
+    <h1 class="hero__title">Partners</h1>
+    <p class="hero__description">
+       Quedic is dedicated to painting a harmonious picture with our ecological partners, generously offering them complimentary reporting services
+    </p>
+  </div>
+
 
 author:
   - name: Meltem Demiror
