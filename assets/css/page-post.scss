@@ -57,6 +57,16 @@
       padding-right: 10px;
     }
 
+    p > em {
+      font-style: normal;
+      font-weight: normal;
+      line-height: 1;
+      font-size: 3em;
+      vertical-align: bottom;
+      color: var(--heading-font-color);
+      padding-right: 6px;
+    }
+
     > *:last-child {
       margin-bottom: 0;
     }
