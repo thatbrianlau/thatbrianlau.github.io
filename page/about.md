@@ -8,7 +8,7 @@ title: Our Vision
 
 > Quedic: Shaping the Future of Money through Influential Financial and Cryptocurrency Insights
 
-<em>The</em> leader in news and information on cryptocurrency, digital assets and the future of money,Quedic is a media outlet that strives for the highest journalistic standards and abides by a strict set of editorial policies.
+<em>T</em>he leader in news and information on cryptocurrency, digital assets and the future of money,Quedic is a media outlet that strives for the highest journalistic standards and abides by a strict set of editorial policies.
 
 We've been an influential Financial & Cryptocurrency Public Relations and Marketing consultant Agency. We will devote ourselves to disseminating remarkable and highly concentrated interactive content by gathering senior policymakers' information who have played an important role in the markets globally .Through a combination of brand strategic plan and marketing, we have the knowledge and experience to get brands noticed.We’ve worked extensively and successfully with both new and established businesses.
 
