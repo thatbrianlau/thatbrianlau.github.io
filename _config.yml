@@ -27,6 +27,10 @@ language:
   - lang: fr
     img: https://cdn.countryflags.com/thumbs/france/flag-400.png
     text: French
+    
+  - lang: tr
+    img: https://cdn.countryflags.com/thumbs/turkey/flag-400.png
+    text: Türkiye
 
   - lang: zh-TW
     img: https://cdn.countryflags.com/thumbs/hongkong/flag-400.png
@@ -59,9 +63,7 @@ author:
   - name: Rocio Han
     head: /assets/img/partners-04.jpg
 
-  - name: BINANCE
-    head: /assets/img/partners-05.jpg
+  - name: Quedic
+    head: /assets/img/partners-21.jpg
 
-  - name: MarketAcross
-    head: /assets/img/partners-06.jpg
-
+ 
