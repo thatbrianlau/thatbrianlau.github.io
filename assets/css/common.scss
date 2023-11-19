@@ -77,54 +77,43 @@
     }
   }
 
-  .toggle-theme {
+  .icons-wrap {
     position: absolute;
     top: 0;
     right: 30px;
     bottom: 0;
     display: flex;
-    justify-content: center;
+    flex-flow: row nowrap;
     align-items: center;
     user-select: none;
 
-    .sun,
-    .moon {
-      cursor: pointer;
+    > div {
+      width: 42px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       font-size: 0;
-
-      transition: color 0.25s ease;
-      color: var(--heading-font-color);
-      i {
-        font-size: 23px;
-      }
     }
 
-    .sun {
-      display: none;
+    i {
+      font-size: 23px;
+      cursor: pointer;
+      transition: color 0.25s ease;
+      color: var(--heading-font-color);
     }
   }
 
   .toggle-lang {
-    position: absolute;
-    top: 0;
-    right: 70px;
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    user-select: none;
-    font-size: 0;
+    position: relative;
 
-    .language {
-      user-select: none;
-      cursor: pointer;
-      fill: var(--heading-font-color);
+    i {
+      font-size: 0;
     }
 
     .toggle-lang-dropdown {
       position: absolute;
-      top: 66px;
-      right: -35px;
+      top: 50px;
+      right: -25px;
       max-height: 0;
       display: inline-block;
       color: #f8f8f8;
@@ -246,17 +235,19 @@
             margin: 0;
           }
         }
-        .toggle-lang {
-          padding: 7px 0;
+        .icons-wrap {
           position: static;
-          .toggle-lang-dropdown {
-            top: 0;
-            right: 169px;
+          flex-flow: column nowrap;
+
+          > div {
+            padding: 7px 0 7px 0;
           }
         }
-        .toggle-theme {
-          padding: 7px 0;
-          position: static;
+        .toggle-lang {
+          .toggle-lang-dropdown {
+            top: -303px;
+            right: 105px;
+          }
         }
       }
     }
@@ -339,6 +330,10 @@
   max-width: 620px;
   margin: 0 auto;
   text-align: center;
+
+  &.full {
+    max-width: 90%;
+  }
 
   .hero__title {
     font-size: 60px;

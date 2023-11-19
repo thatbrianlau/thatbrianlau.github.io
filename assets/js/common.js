@@ -48,11 +48,52 @@ $(function () {
   $('.hamburger').click(function () {
     $('.site-nav').toggleClass('open')
   })
+
   $(window).click(function (e) {
     if (e.target != $('.hamburger').get(0) && !$.contains($('.hamburger').get(0), e.target)) {
       $('.site-nav').removeClass('open')
     }
   })
+
+  // searchable
+  $('a[link-search]').each(function () {
+    const name = $(this).parent().find('.partners__name').text().trim()
+    $(this).attr('href', 'partner-post.html?author=' + encodeURIComponent(name))
+  })
+  if (location.pathname.endsWith('partner-post.html')) {
+    const query = {}
+    location.search.split('&').forEach(function (item) {
+      const arr = item.split('=')
+      const key = arr[0].replace(/^\?/, '')
+      if (typeof arr[1] === 'string') {
+        query[key] = decodeURIComponent(arr[1])
+      } else {
+        query[key] = null
+      }
+    })
+    $.ajax({
+      url: 'partners.html',
+      dataType: 'text',
+      success(text) {
+        $(text)
+          .find('.partners__info')
+          .each(function () {
+            const author = $(this).find('.partners__name').text().trim()
+            const description = $(this).find('.partners__description').html()
+            if (author === query.author) {
+              $('.hero__title').text(author)
+              $('.hero__description').html(description)
+              return false
+            }
+          })
+      }
+    })
+    $('.partner-post-list .article').each(function () {
+      const author = $(this).find('.author').text().trim()
+      if (author !== query.author) $(this).remove()
+    })
+    $('.partner-post-list').show()
+  }
 
   // wrap image
   $('.article-post img').each(function (img) {

@@ -1,19 +1,19 @@
 {% assign counter = 0 %}
 
 {%- for post in site.posts -%}
-  {%- assign isCategory = false -%}
+  {%- assign filter = false -%}
 
   {%- if include.name -%}
     {%- for category in post.categories -%}
       {%- if category == include.name -%}
-        {%- assign isCategory = true -%}
+        {%- assign filter = true -%}
       {%- endif -%}
     {%- endfor -%}
   {%- else -%}
-    {%- assign isCategory = true -%}
+    {%- assign filter = true -%}
   {%- endif -%}
 
-  {%- if isCategory -%}
+  {%- if filter -%}
     {% assign counter = counter | plus: 1 %}
     {%- include article-item.html class=include.class -%}
   {% endif -%}

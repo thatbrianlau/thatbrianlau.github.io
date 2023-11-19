@@ -8,14 +8,10 @@
     .menu a {
       color: var(--light-gray) !important;
     }
-    .toggle-lang .language {
-      fill: var(--light-gray) !important;
-    }
-    .toggle-theme .sun {
-      color: var(--light-gray) !important;
-    }
-    .toggle-theme .moon {
-      color: var(--light-gray) !important;
+    .icons-wrap {
+      i {
+        color: var(--light-gray) !important;
+      }
     }
   }
 
@@ -23,14 +19,10 @@
     .menu a {
       color: var(--link-color) !important;
     }
-    .toggle-lang .language {
-      fill: var(--link-color) !important;
-    }
-    .toggle-theme .sun {
-      color: var(--link-color) !important;
-    }
-    .toggle-theme .moon {
-      color: var(--link-color) !important;
+    .icons-wrap {
+      i {
+        color: var(--link-color) !important;
+      }
     }
   }
 

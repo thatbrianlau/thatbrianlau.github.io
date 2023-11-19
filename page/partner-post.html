@@ -1,0 +1,18 @@
+---
+layout: custom
+title: PARTNERS
+---
+
+<div class="container">
+  <div class="hero full">
+    <h1 class="hero__title"></h1>
+    <p class="hero__description"></p>
+  </div>
+
+  <div class="partner-post-list" style="display: none">
+    <ul class="article-list">
+      {%- include article-range.html limit=9999 -%}
+    </ul>
+    <div id="pagination" data-pageSize="6"></div>
+  </div>
+</div>

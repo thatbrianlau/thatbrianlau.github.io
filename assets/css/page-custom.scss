@@ -28,6 +28,11 @@
       margin-bottom: 40px;
       box-sizing: border-box;
 
+      a {
+        display: block;
+        cursor: pointer;
+      }
+
       img {
         width: 200px;
         height: 200px;
