@@ -21,13 +21,13 @@
   {% endif -%}
   <link rel="icon" href="{{site.baseurl}}/favicon.ico" />
   <link rel="stylesheet" href="https://registry.npmmirror.com/ionicons/4.2.2/files/dist/css/ionicons.min.css">
-  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/responsive.css" />
-  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/basic.css" />
-  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/common.css" />
-  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/article-list.css" />
-  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/page-home.css" />
-  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/page-post.css" />
-  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/page-custom.css" />
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/responsive.css?t={{buildAt}}" />
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/basic.css?t={{buildAt}}" />
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/common.css?t={{buildAt}}" />
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/article-list.css?t={{buildAt}}" />
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/page-home.css?t={{buildAt}}" />
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/page-post.css?t={{buildAt}}" />
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/page-custom.css?t={{buildAt}}" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@400;600;700&family=Noto+Serif:wght@700&display=swap">
   <script>
     window.site = { baseurl: '{{site.baseurl}}', buildAt: '{{buildAt}}'}
@@ -39,6 +39,6 @@
   <script defer src="https://registry.npmmirror.com/lightense-images/1.0.17/files/dist/lightense.min.js"></script>
   <script defer src="https://registry.npmmirror.com/reframe.js/4.0.1/files/dist/reframe.min.js"></script>
   <script defer src="https://registry.npmmirror.com/js-cookie/3.0.5/files/dist/js.cookie.min.js"></script> 
-  <script defer src="{{site.baseurl}}/assets/js/common.js"></script>
+  <script defer src="{{site.baseurl}}/assets/js/common.js?t={{buildAt}}"></script>
   <script defer src="https://translate.google.com/translate_a/element.js?cb=initLang"></script>
 </head>
