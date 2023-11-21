@@ -49,6 +49,11 @@ $(function () {
     $('.site-nav').toggleClass('open')
   })
 
+  // search
+  $('.toggle-search').click(function () {
+    window.SearchBox.open()
+  })
+
   $(window).click(function (e) {
     if (e.target != $('.hamburger').get(0) && !$.contains($('.hamburger').get(0), e.target)) {
       $('.site-nav').removeClass('open')

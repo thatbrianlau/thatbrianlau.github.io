@@ -1,0 +1,9 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="utf-8"?>
+<ul>
+  {%- for post in site.posts %}
+  <li url="{{post.url}}" title="{{ post.title }}">{{ post.content | strip_html | strip | replace: "	", " " | replace: " ", " " }}</li>
+  {%- endfor %}
+</ul>
