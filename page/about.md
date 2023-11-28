@@ -27,7 +27,7 @@ We've been an influential Financial & Cryptocurrency Public Relations and Market
 ## Meet our Team
 
 <div class="gallery-box">
-  <img src="https://qiniu.keyujin.cn/Vanessa%20Holmes.jpg">
+  <img src="https://www.quedic.com/images/Vanessa%20Holmes.jpg">
 </div>
 ##  <center> Vanessa Holmes <center>
 ## <center> CEO <center>
@@ -42,7 +42,7 @@ Vanessa's professional prowess and dedication to the company's mission have not 
 
 
 <div class="gallery-box">
-  <img src="https://qiniu.keyujin.cn/WechatIMG784.jpeg">
+  <img src="https://www.quedic.com/images/WechatIMG784.jpg">
 </div>
 ##  <center> Brian Lau <center>
 ## <center>Co-Founder & CMO <center>
@@ -55,7 +55,7 @@ Under Brian's guidance, the company's marketing strategies are meticulously plan
 
 
 <div class="gallery-box">
-  <img src="https://qiniu.keyujin.cn/larachang.png">
+  <img src="https://www.quedic.com//images/lara.jpg">
 </div>
 ##  <center> Lara Chang <center>
 ## <center>Chief Content Officer <center>
