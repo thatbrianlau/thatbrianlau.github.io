@@ -42,7 +42,7 @@ Vanessa's professional prowess and dedication to the company's mission have not 
 
 
 <div class="gallery-box">
-  <img src="https://www.quedic.com/images/GCWzBX1aYAAic7-.jpeg">
+  <img src="https://www.quedic.com/images/WechatIMG784.jpg">
 </div>
 ##  <center> Brian Lau <center>
 ## <center>Co-Founder & CMO <center>
