@@ -1,6 +1,20 @@
 <!doctype html>
 <html>
   {% include head.html -%}
+  <style>
+    .post-share {
+      margin-top: 20px; /* 在分享按钮和文章内容之间添加一些间距 */
+      text-align: center; /* 将分享按钮居中显示 */
+    }
+
+    .post-share a {
+      padding: 8px 16px;
+      background-color: #1DA1F2; /* Twitter 的品牌颜色 */
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+  </style>
   <body>
     <div class="page page-post">
       {% include nav.html -%}
