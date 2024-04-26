@@ -11,7 +11,12 @@
           </div>
           {%- include article-meta.html -%}
         </div>
-        <article class="article-post">{{ content }}</article>
+        <article class="article-post">
+          {{ content }}
+          <div class="post-share">
+            <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url }}{{ page.url | url_encode }}" target="_blank">Share on Twitter</a>
+          </div>
+        </article>
       </div>
     </div>
     {% include footer.html -%}
