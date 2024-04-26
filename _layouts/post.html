@@ -37,5 +37,15 @@
       </div>
     </div>
     {% include footer.html -%}
+    <!-- 添加 Open Graph 和 Twitter Card 的 meta 标签 -->
+    <meta property="og:title" content="{{ page.title | escape }}">
+    <meta property="og:description" content="{{ page.excerpt | strip_html | escape }}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:image" content="{{ site.url }}{{ page.image }}">
+    <meta property="og:type" content="article">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ page.title | escape }}">
+    <meta name="twitter:description" content="{{ page.excerpt | strip_html | escape }}">
+    <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
   </body>
 </html>
