@@ -13,6 +13,12 @@
       color: white;
       text-decoration: none;
       border-radius: 4px;
+      display: inline-flex;
+      align-items: center;
+    }
+
+    .post-share a i {
+      margin-right: 8px;
     }
   </style>
   <body>
@@ -28,7 +34,9 @@
         <article class="article-post">
           {{ content }}
           <div class="post-share">
-            <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url }}{{ page.url | url_encode }}" target="_blank">Share on Twitter</a>
+            <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url }}{{ page.url | url_encode }}" target="_blank">
+              <i class="fab fa-twitter"></i> Share on Twitter
+            </a>
           </div>
         </article>
       </div>
