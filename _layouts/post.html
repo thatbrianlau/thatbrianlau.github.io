@@ -3,22 +3,17 @@
   {% include head.html -%}
   <style>
     .post-share {
-      margin-top: 20px; /* 在分享按钮和文章内容之间添加一些间距 */
-      text-align: center; /* 将分享按钮居中显示 */
+      margin-top: 20px; /* 在图标和文章内容之间添加一些间距 */
+      text-align: center; /* 将图标居中显示 */
     }
 
     .post-share a {
-      padding: 8px 16px;
-      background-color: #1DA1F2; /* Twitter 的品牌颜色 */
-      color: white;
+      color: #1DA1F2; /* Twitter 的品牌颜色 */
       text-decoration: none;
-      border-radius: 4px;
-      display: inline-flex;
-      align-items: center;
     }
 
-    .post-share a i {
-      margin-right: 8px;
+    .post-share a:hover, .post-share a:focus {
+      color: #0d95e8; /* 鼠标悬停或聚焦时的颜色变化 */
     }
   </style>
   <body>
@@ -35,7 +30,7 @@
           {{ content }}
           <div class="post-share">
             <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url }}{{ page.url | url_encode }}" target="_blank">
-              <i class="fab fa-twitter"></i> Share on Twitter
+              <i class="fab fa-twitter"></i> <!-- 只显示图标 -->
             </a>
           </div>
         </article>
