@@ -3,7 +3,7 @@ layout: post
 title: Our Vision
 ---
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/WMOcux6Gp24" title="Fintech: Web3 &amp; Beyond with Arjun Sethi, Vanessa Grellet, Scott Sobel &amp; Meltem Demirors | #𝗦𝗔𝗟𝗧𝗡𝗬" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/moNJQvCNvpA?si=cp6giVkcbM1G4UjB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 > Quedic: Shaping the Future of Money through Influential Financial and Cryptocurrency Insights
