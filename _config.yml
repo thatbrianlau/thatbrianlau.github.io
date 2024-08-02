@@ -3,6 +3,7 @@ keywords: 关键词1,关键词2
 # build config
 baseurl: '' # the subpath of your site, e.g. /blog
 url: "https://www.quedicshares.com" # the base hostname & protocol for your site
+repository: thatbrianlau/thatbrianlau.github.io # Add repository name here
 permalink: /post/:name.html
 kramdown:
   auto_ids: true
