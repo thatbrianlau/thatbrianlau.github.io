@@ -30,7 +30,7 @@ jobs:
 
     - name: Remove invalid post template
       run: |
-        rm -f vendor/bundle/ruby/3.1.0/gems/jekyll-3.9.3/lib/site_template/_posts/0000-00-00-welcome-to-jekyll.markdown.erb
+        find . -name '0000-00-00-welcome-to-jekyll.markdown.erb' -delete
 
     - name: Generate Gemfile.lock if not exists
       run: |
