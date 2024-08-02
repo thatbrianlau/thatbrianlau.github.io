@@ -2,12 +2,24 @@
 <html>
   {% include head.html %}
   <style>
+    .thumbnail-container {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      position: relative;
+      padding-bottom: 56.25%; /* 16:9 aspect ratio */
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
     .thumbnail {
       width: 100%;
-      height: auto;
-      object-fit: contain; /* 或者使用 cover，根据需要选择 */
-      display: block;
-      margin: 0 auto; /* 居中显示 */
+      height: 100%;
+      object-fit: contain; /* 使用 cover 如果需要裁剪以填满 */
+      position: absolute;
+      top: 0;
+      left: 0;
     }
     .post-share {
       margin-top: 20px; /* 在图标和文章内容之间添加一些间距 */
@@ -33,7 +45,9 @@
         </div>
         <article class="article-post">
           {% if page.cover %}
-            <img src="{{ page.cover }}" alt="{{ page.title }} 缩略图" class="thumbnail">
+            <div class="thumbnail-container">
+              <img src="{{ page.cover }}" alt="{{ page.title }} 缩略图" class="thumbnail">
+            </div>
           {% endif %}
           {{ content }}
           <div class="post-share">
