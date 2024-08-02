@@ -26,6 +26,8 @@ jobs:
           ruby-version: '3.1'
           bundler-cache: true
           cache-version: 0
+      - name: Set PAGES_REPO_NWO environment variable
+        run: echo "PAGES_REPO_NWO=${{ github.repository }}" >> $GITHUB_ENV
       - name: Install dependencies
         run: |
           gem update bundler
