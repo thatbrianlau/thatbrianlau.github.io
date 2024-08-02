@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+  {% include head.html -%}
+  <style>
+    .post-share {
+      margin-top: 20px; /* 在图标和文章内容之间添加一些间距 */
+      text-align: center; /* 将图标居中显示 */
+    }
+
+    .post-share a {
+      color: #1DA1F2; /* Twitter 的品牌颜色 */
+      text-decoration: none;
+    }
+
+    .post-share a:hover, .post-share a:focus {
+      color: #0d95e8; /* 鼠标悬停或聚焦时的颜色变化 */
+    }
+  </style>
+  <body>
+    <div class="page page-post">
+      {% include nav.html -%}
+      <div class="container">
+        <div class="page-head">
+          <div class="page__info">
+            <h1 class="page__title">{{ page.title }}</h1>
+          </div>
+          {%- include article-meta.html -%}
+        </div>
+        <article class="article-post">
+          {{ content }}
+          <div class="post-share">
+                        <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url }}{{ page.url | url_encode }}" target="_blank">
+              <i class="fab fa-twitter"></i> <!-- 只显示图标 -->
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+    {% include footer.html -%}
+    <!-- 添加 Open Graph 和 Twitter Card 的 meta 标签 -->
+    <meta property="og:title" content="{{ page.title | escape }}">
+    <meta property="og:description" content="{{ page.excerpt | strip_html | escape }}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:image" content="{{ site.url }}{{ page.image }}">
+    <meta property="og:type" content="article">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ page.title | escape }}">
+    <meta name="twitter:description" content="{{ page.excerpt | strip_html | escape }}">
+    <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
+  </body>
+</html>
