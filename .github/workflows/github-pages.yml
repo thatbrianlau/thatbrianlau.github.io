@@ -3,7 +3,7 @@ name: GitHub Pages
 on:
   push:
     branches:
-      - main # 这里的分支名称应与你的默认分支名称一致
+      - main  # 这里的分支名称应与你的默认分支名称一致
 
 jobs:
   build:
@@ -16,12 +16,23 @@ jobs:
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 3.1 # 确保使用正确的 Ruby 版本
+        ruby-version: 3.1  # 确保使用正确的 Ruby 版本
 
     - name: Install dependencies
       run: |
         gem install bundler
         bundle install
+
+    - name: Generate Gemfile.lock
+      run: bundle lock
+
+    - name: Commit Gemfile.lock
+      run: |
+        git config --global user.name 'github-actions'
+        git config --global user.email 'github-actions@github.com'
+        git add Gemfile.lock
+        git commit -m 'Generate Gemfile.lock'
+        git push origin main
 
     - name: Build Jekyll site
       run: bundle exec jekyll build
