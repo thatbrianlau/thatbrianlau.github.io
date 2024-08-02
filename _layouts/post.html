@@ -29,7 +29,7 @@
         <article class="article-post">
           {{ content }}
           <div class="post-share">
-            <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url | append: page.url | url_encode }}" target="_blank">
+                        <a href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url }}{{ page.url | url_encode }}" target="_blank">
               <i class="fab fa-twitter"></i> <!-- 只显示图标 -->
             </a>
           </div>
