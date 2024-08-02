@@ -16,12 +16,14 @@ jobs:
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 3.1  # 确保使用正确的 Ruby 版本
+        ruby-version: '3.1'  # 确保使用正确的 Ruby 版本
+
+    - name: Install Bundler
+      run: gem install bundler
 
     - name: Install dependencies
       run: |
-        gem install bundler
-        bundle install || true  # 即使失败也继续
+        bundle install || true  # 即使失败也继续，以便后续步骤能够运行
 
     - name: Check bundle configuration
       run: bundle config
