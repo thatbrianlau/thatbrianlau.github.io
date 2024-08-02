@@ -5,7 +5,7 @@
     .thumbnail {
       width: 100%;
       height: auto;
-      object-fit: contain; /* 或者使用 cover */
+      object-fit: contain; /* 或者使用 cover，根据需要选择 */
       display: block;
       margin: 0 auto; /* 居中显示 */
     }
@@ -32,8 +32,8 @@
           {% include article-meta.html %}
         </div>
         <article class="article-post">
-          {% if page.image %}
-            <img src="{{ page.image }}" alt="{{ page.title }} 缩略图" class="thumbnail">
+          {% if page.cover %}
+            <img src="{{ page.cover }}" alt="{{ page.title }} 缩略图" class="thumbnail">
           {% endif %}
           {{ content }}
           <div class="post-share">
@@ -49,11 +49,11 @@
     <meta property="og:title" content="{{ page.title | escape }}">
     <meta property="og:description" content="{{ page.excerpt | strip_html | escape }}">
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-    <meta property="og:image" content="{{ site.url }}{{ page.image }}">
+    <meta property="og:image" content="{{ site.url }}{{ page.cover }}">
     <meta property="og:type" content="article">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ page.title | escape }}">
     <meta name="twitter:description" content="{{ page.excerpt | strip_html | escape }}">
-    <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
+    <meta name="twitter:image" content="{{ site.url }}{{ page.cover }}">
   </body>
 </html>
