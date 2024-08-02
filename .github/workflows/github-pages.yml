@@ -3,7 +3,7 @@ name: GitHub Pages
 on:
   push:
     branches:
-      - main  # 确保使用你的默认分支名称
+      - main
 
 jobs:
   build:
@@ -16,17 +16,21 @@ jobs:
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '3.1'  # 确保使用正确的 Ruby 版本
+        ruby-version: '3.1'
 
     - name: Install Bundler
       run: gem install bundler
 
     - name: Install dependencies
       run: |
-        bundle install || true  # 即使失败也继续，以便后续步骤能够运行
+        bundle install || true
 
     - name: Check bundle configuration
       run: bundle config
+
+    - name: Remove invalid post template
+      run: |
+        rm -f vendor/bundle/ruby/3.1.0/gems/jekyll-3.9.3/lib/site_template/_posts/0000-00-00-welcome-to-jekyll.markdown.erb
 
     - name: Generate Gemfile.lock if not exists
       run: |
