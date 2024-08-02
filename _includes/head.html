@@ -35,9 +35,9 @@
   <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
   
   <!-- Font Awesome CDN for icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/vendor/@fortawesome/fontawesome-free@6.0.0-beta3/css/all.min.css">
   <!-- Other style sheets -->
-  <link rel="stylesheet" href="https://registry.npmmirror.com/ionicons/4.2.2/files/dist/css/ionicons.min.css">
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/vendor/ionicons@4.2.2/dist/css/ionicons.min.css">
   <link rel="stylesheet" href="{{site.baseurl}}/assets/css/responsive.css?t={{buildAt}}" />
   <link rel="stylesheet" href="{{site.baseurl}}/assets/css/basic.css?t={{buildAt}}" />
   <link rel="stylesheet" href="{{site.baseurl}}/assets/css/common.css?t={{buildAt}}" />
@@ -51,12 +51,12 @@
     if (localStorage.theme === 'dark') document.documentElement.className = 'dark-mode'
   </script>
   <!-- JavaScript Libraries -->
-  <script defer src="https://registry.npmmirror.com/jquery/3.7.0/files/dist/jquery.min.js"></script>
-  <script defer src="https://registry.npmmirror.com/paginationjs/2.5.1/files/dist/pagination.min.js"></script>
-  <script defer src="https://registry.npmmirror.com/vanilla-lazyload/17.8.4/files/dist/lazyload.min.js"></script>
-  <script defer src="https://registry.npmmirror.com/lightense-images/1.0.17/files/dist/lightense.min.js"></script>
-  <script defer src="https://registry.npmmirror.com/reframe.js/4.0.1/files/dist/reframe.min.js"></script>
-  <script defer src="https://registry.npmmirror.com/js-cookie/3.0.5/files/dist/js.cookie.min.js"></script> 
+  <script defer src="{{site.baseurl}}/assets/vendor/jquery@3.7.0/dist/jquery.min.js"></script>
+  <script defer src="{{site.baseurl}}/assets/vendor/paginationjs@2.5.1/dist/pagination.min.js"></script>
+  <script defer src="{{site.baseurl}}/assets/vendor/vanilla-lazyload@17.8.4/dist/lazyload.min.js"></script>
+  <script defer src="{{site.baseurl}}/assets/vendor/lightense-images@1.0.17/dist/lightense.min.js"></script>
+  <script defer src="{{site.baseurl}}/assets/vendor/reframe.js@4.0.1/dist/reframe.min.js"></script>
+  <script defer src="{{site.baseurl}}/assets/vendor/js-cookie@3.0.5/dist/js.cookie.min.js"></script> 
   <script defer src="{{site.baseurl}}/assets/js/common.js?t={{buildAt}}"></script>
   <script defer src="{{site.baseurl}}/assets/js/search-box.bind-style.js?t={{buildAt}}"></script>
   <script defer src="https://translate.google.com/translate_a/element.js?cb=initLang"></script>
