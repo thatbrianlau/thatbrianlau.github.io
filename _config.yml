@@ -1,118 +1,32 @@
-encoding: utf-8
-
-# site meta
-title: Quedic
-description: Shaping the Future of Money through Influential Financial and Cryptocurrency Insights
 keywords: 关键词1,关键词2
 
 # build config
-baseurl: '' # the subpath of your site, e.g. /blog
-url: "https://www.quedicshares.com" # the base hostname & protocol for your site
+baseurl: ''
 permalink: /post/:name.html
 kramdown:
   auto_ids: true
-  input: GFM
-  syntax_highlighter: rouge
-exclude: ['CNAME', 'README.md', 'LICENSE', '_site', 'dist', 'Gemfile', 'Gemfile.lock', 'run.sh']
-
-# sass config
-sass:
+	@@ -19,6 +20,7 @@ sass:
   sass_dir: _sass
   style: compressed
 
-# multilingual config
 language:
   - lang: es
     img: https://cdn.countryflags.com/thumbs/spain/flag-400.png
-    text: Spanish
-
-  - lang: fr
-    img: https://cdn.countryflags.com/thumbs/france/flag-400.png
-    text: French
-    
-  - lang: tr
-    img: https://cdn.countryflags.com/thumbs/turkey/flag-400.png
-    text: Türkiye
-
-  - lang: zh-TW
-    img: https://cdn.countryflags.com/thumbs/hongkong/flag-400.png
-    text: Chinese(Simple)
-
-  - lang: ja
-    img: https://cdn.countryflags.com/thumbs/japan/flag-400.png
-    text: Japanese
-
-  - lang: ru
-    img: https://cdn.countryflags.com/thumbs/russia/flag-400.png
-    text: Russian
-
-  - lang: en
+	@@ -48,13 +50,12 @@ language:
     img: https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png
     text: English
 
-# authors config
+
+
 author:
   - name: Meltem Demiror
     head: /assets/img/partners-01.jpg
 
-  - name: Dovey Wan
+  - name:  Dovey Wan
     head: /assets/img/partners-02.jpg
 
   - name: Metaverse Princess （元宇宙公主）
-    head: /assets/img/partners-03.jpg
-
-  - name: Rocio Han
-    head: /assets/img/partners-04.jpg
-
+	@@ -66,4 +67,52 @@ author:
   - name: Quedic
     head: /assets/img/partners-21.jpg
 
-# other settings
-markdown: kramdown
-plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-paginate: 12
-paginate_path: "/latest/page/:num"
-collections:
-  pages:
-    output: true
-    permalink: /:name
-  posts:
-    output: true
-    permalink: /latest/:slug
-  authors:
-    output: true
-    permalink: /:name
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: "default"
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "page"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: "author"
-  - scope:
-      path: "tag"
-      type: "pages"
-    values:
-      layout: "tag"
-sass:
-  sass_dir: _sass
-  style: compressed
-
-# tag settings
-tag_page_layout: tag
-tag_page_dir: tag
